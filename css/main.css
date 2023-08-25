@@ -31,4 +31,16 @@ main {
 
     font-size: 16px;
     font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.main__info div a {
+    background: var(--red);
+}
+
+.main__info div button {
+    background: transparent;
+    border: 1px solid var(--green);
 }
